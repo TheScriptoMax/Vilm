@@ -1,0 +1,78 @@
+.movieHero{
+    position: relative;
+    width: 100%;
+    height: 464px;
+    background-color: black;
+}
+.movieHero figure{
+    width: 100%;
+}
+.movieHero img{
+    width: 100%;
+}
+.moviePage{
+    position: relative;
+    background-color: black;
+}
+.poster{
+    position: absolute;
+    width: 205px;
+    height: 308px;
+    top: 0;
+    left: 70px;
+    transform: translateY(-150px);
+}
+.poster img{
+    max-width: 100%;
+}
+
+.movieHeader{
+    padding-top: 23px;
+    padding-left: 316px;
+    margin-bottom: 67px;
+}
+.movieHeader h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #EDEDED;
+    margin-bottom: 23px;
+}
+.movieHeader p{
+    display: inline;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    margin-right: 42px;
+}
+.movieHeader p:before{
+    content: url(../hero/Vector.svg);
+    margin-right: 12px;
+    color: white;
+}
+
+.movieContent{
+    position: relative;
+    height: 800px;
+}
+.movieContent h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}
+.movieContent p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+}

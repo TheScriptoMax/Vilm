@@ -1,0 +1,12 @@
+.trendingMovies{
+    background-color: black ;
+    padding-top: 52px;
+}
+
+.trendingMoviesCard{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(193px,1fr));
+    grid-template-rows: 355px,355px;
+    column-gap: 28px;
+    row-gap: 35px;
+}

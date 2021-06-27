@@ -1,0 +1,54 @@
+.hero{
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+.hero img{
+    position: relative;
+    width: 100%;
+}
+
+.movie{
+    position: absolute;
+    width: 63vw;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-135px);
+    border-radius: 0 10px 10px 0;
+    padding: 20px 20px 20px 82px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: white;
+    margin-bottom: 18px;
+}
+.overview{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: white;
+    margin-bottom: 57px;
+}
+.vote{
+    display: inline;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    margin-right: 100px;
+}
+
+.vote:before{
+    content: url(/src/components/hero/Vector.svg);
+    margin-right: 15px ;
+}

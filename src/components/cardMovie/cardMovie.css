@@ -1,0 +1,29 @@
+.card{
+    background-color:#050E12;
+}
+.card img{
+    width: 100%;
+}
+
+.card h4{
+    color: #B6B6B6;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.card p{
+    color: #828282;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.titleDate{
+    padding: 16px 18px 12px 18px ;
+}

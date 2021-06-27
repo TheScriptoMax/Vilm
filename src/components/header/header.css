@@ -1,0 +1,49 @@
+body,*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    background-color: #1A1F38 ;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header h1{
+    color: white;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.header input{
+    position: relative;
+    width: 475px;
+    height: 58px;
+    border: none;
+    outline: none;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 8px;
+    padding:  0 100px 0 30px ;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.header button{
+    position: absolute;
+    top: 25px;
+    transform: translateX(-70px);
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    color:whitesmoke;
+    cursor: pointer;
+}

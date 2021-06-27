@@ -1,0 +1,13 @@
+.button{
+    background-color: #FFDA18;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    padding: 10px 36px;
+    border: none;
+    transform: translateY(-5px);
+}
