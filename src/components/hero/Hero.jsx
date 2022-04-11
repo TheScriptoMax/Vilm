@@ -1,8 +1,9 @@
 import React from 'react';
-import {IMGPATH} from '../../constant';
 import Button from '../button/Button';
 import './hero.css';
 import {Link} from "react-router-dom";
+
+const IMGPATH = process.env.REACT_APP_IMG_PATH ;
 
 const Hero = ({heroTrendingMovies,goMovie}) => {
     return (

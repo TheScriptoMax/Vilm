@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from '../button/Button';
-import { IMGPATH } from '../../constant';
 import './moviePage.css'
+
+const IMGPATH = process.env.REACT_APP_IMG_PATH ;
 
 const MoviePage = ({movieData}) => {
     return (

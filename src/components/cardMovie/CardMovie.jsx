@@ -1,7 +1,8 @@
 import React from 'react';
-import { IMGPATH } from '../../constant';
 import './cardMovie.css'
 import {Link} from "react-router-dom";
+
+const IMGPATH = process.env.REACT_APP_IMG_PATH ;
 const CardMovie = ({poster, title, date,goMovie}) => {
     const dateArr = date.match(/\d{4}/gm)
     return (

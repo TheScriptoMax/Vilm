@@ -8,9 +8,12 @@ import {BrowserRouter as Router,
   Route
 } from "react-router-dom";
 import { useState,useEffect } from 'react';
-import {APIURL} from '../src/constant'
-import {SEARCHAPI} from '../src/constant'
-import {APIKEY} from '../src/constant'
+const APIURL = process.env.REACT_APP_API_URL;
+const SEARCHAPI = process.env.REACT_APP_SEARCH_API;
+const APIKEY = process.env.REACT_APP_API_KEY
+console.log(APIURL)
+console.log(SEARCHAPI)
+console.log(APIKEY)
 
 function App() {
 
@@ -60,7 +63,7 @@ function App() {
             <Route path="/" exact>
               { heroTrendingMovies === undefined ?
                 (<div>
-                  CHARGEMENT DE MES COUILLES !
+                  CHARGEMENT !
                 </div>):(
                 <>
                   <Home heroTrendingMovies={heroTrendingMovies} trendingMovies={trendingMovies} goMovie={(link)=>setMovieLink(link)}/>
@@ -72,7 +75,7 @@ function App() {
             <Route path="/search">
               { searchResult === undefined ?
                   (<div>
-                    CHARGEMENT DE MES DEUX COUILLES !
+                    CHARGEMENT !
                   </div>):(
                   <>
                     <Search searchResult={searchResult} goMovie={(link)=>setMovieLink(link)}/>
@@ -83,7 +86,7 @@ function App() {
             <Route path="/MoviePage">
             { moviePage === undefined ?
                   (<div>
-                    CHARGEMENT DE MES TROIS COUILLES !
+                    CHARGEMENT !
                   </div>):(
                   <>
                     <MoviePage movieData={moviePage}/>
